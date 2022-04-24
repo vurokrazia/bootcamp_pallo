@@ -27,14 +27,3 @@ class Spartan:
 
     def get_full_name(self):
         return self.__name + " " + self.__last_name
-
-will = Spartan(
-    "x","Diaz","cool",'f',
-    'No',"S",
-    "X","r",
-    "Karter","La de aczino","Purple")
-
-will.set_name('WILL')
-print(will.get_name())
-print(will.get_antebrazo())
-print(will.get_full_name())
