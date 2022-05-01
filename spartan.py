@@ -1,9 +1,6 @@
-from unicodedata import name
-
-
 class Spartan:
 
-    def __init__(self,  name, last_name, casco,   equipamiento,  voz,  sexo, antebrazo,   rodilleras,    stikers,    banderas,   color_visor):
+    def __init__(self,  name, last_name ='', casco ='',   equipamiento ='',  voz ='',  sexo ='', antebrazo ='',   rodilleras ='',    stikers ='',    banderas='',   color_visor=''):
         self.__name = name
         self.__last_name = last_name
         self.__casco = casco
